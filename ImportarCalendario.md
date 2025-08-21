@@ -24,5 +24,5 @@ O resultado que se espera por exemplo para o arquivo acima:
 
 ### Evento criado, com o nome, duração, dia e notificação
 
-![evento criado.png](evento criado.png)
+![evento criado.png](eventocriado.png)
 
