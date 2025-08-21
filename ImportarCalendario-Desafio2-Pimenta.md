@@ -10,7 +10,10 @@ Notificação sempre vai ser em minutos também.
 
 Exemplo de arquivo, o arquivo sempre terá um cabeçalho no formato abaixo e pode ter n linhas.
 
-![pdf formato import.png](pdf formato import.png)
+![pdf formato import.png](pdf%20formato%20import.png)
+
+Pdf de exemplo: 
+[pdfimportar.pdf](pdfimportar.pdf)
 
 
 Importar no google calendar.
