@@ -1,11 +1,23 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "name": "google-calendar-csv-importer",
+    "version": "1.0.0",
+    "description": "Importador de eventos CSV para Google Calendar",
+    "main": "src/app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "vitest",
+        "test:run": "vitest run",
+        "test:coverage": "vitest run --coverage",
+        "test:real": "node src/test.js",
+        "test:mock": "node src/test-mock.js"
+    },
+    "dependencies": {
+        "csv-parser": "^3.0.0",
+        "googleapis": "^128.0.0"
+    },
+    "devDependencies": {
+        "@vitest/coverage-v8": "^1.0.0",
+        "vitest": "^1.0.0"
+    }
 }
